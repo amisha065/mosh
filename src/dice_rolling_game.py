@@ -1,5 +1,4 @@
 import random
-import sys
 
 def dice_roll(iterations):
 
