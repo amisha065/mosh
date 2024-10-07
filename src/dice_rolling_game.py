@@ -1,13 +1,13 @@
 import random
 
-def dice_roll(iterations):
+def dice_roll(iterations: any) -> None:
 
     result = ""
     for i in range(iterations):
          result += f"{random.randint(1, 6)} "
     print(f"{result}")
 
-def play(choice):
+def play(choice: any):
     match choice:
             case 'y':
                 iterations = int(input("How many times? "))

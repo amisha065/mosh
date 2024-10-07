@@ -23,12 +23,12 @@ def play(choice, computer_number, lo,hi):
 
 if __name__ == "__main__":
 
-    lo = 1
-    hi = 100
-    computer_number = random.randint(lo,hi)
+    LO = 1
+    HI = 100
+    computer_number = random.randint(LO,HI)
     print(f"{computer_number}")
 
     active=True
     while(active):
-        choice = input(f"Guess the number between {lo} and {hi}: ")
-        active=play(choice, computer_number, lo, hi)
+        choice = input(f"Guess the number between {LO} and {HI}: ")
+        active=play(choice, computer_number, LO, HI)
