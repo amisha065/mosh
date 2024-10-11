@@ -3,7 +3,7 @@
 ------------------------
 1.1 Ask user to open/create a text file. Check validity. In file doesn't exist, create one.
     -  I'll have to learn how to open and work with a file
-1.2 Ask user to some texts. to save and exit. USer must enter SAVE in a new line
+1.2 Ask user to enter some texts. To save and exit, USer must enter SAVE in a new line
     - I guess I will have to do some basic pattern matching and perform operatiosn based on that.
 
 2 Optional enhancement
@@ -29,7 +29,7 @@ def get_filename_and_print_content():
     if os.path.exists(file_name):
         with open(file_name,'r') as file:
             content = file.read()    
-    print(content)
+        print(content)
 
     return file_name
 
