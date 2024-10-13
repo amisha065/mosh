@@ -39,7 +39,7 @@ def play_game():
     words = get_words_from_file()
     secret_word = pick_secret_word(words)
 
-    print(secret_word)
+    # print(secret_word)
 
     guesses = set()
     user_guess = ['_' for i in range(len(secret_word))]
