@@ -1,0 +1,5 @@
+emoji==2.14.0
+numpy==2.1.2
+pillow==10.4.0
+qrcode==8.0
+termcolor==2.5.0
